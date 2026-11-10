@@ -84,7 +84,7 @@ Trả lời bốn câu hỏi cuối notebook:
 |---|---|---|---|
 | Export CVAT | File YOLO dùng thứ tự class cũ `truck, bus, van, car` | Remap `0→1`, `1→2`, `2→3`, `3→0` | Repo dùng đúng schema `car, truck, bus, van` |
 | Import gold vào CVAT | Gói gold thiếu `data.yaml` và thư mục ảnh train | Tạo gói import tạm có `data.yaml`, ảnh và nhãn; giữ nguyên nội dung 50 file gold | Xem được gold trong task `gold-review`; không đưa gold vào repo |
-| Gold QC | F1 sau rework thấp hơn ngưỡng yêu cầu | Rà các ảnh có nhiều FP/FN, xóa box thừa và bổ sung box bỏ sót | F1 sau rework `0.7188`; vẫn còn thiếu phần train/eval model |
+| Gold QC | F1 sau rework thấp hơn ngưỡng yêu cầu | Rà các ảnh có nhiều FP/FN, xóa box thừa và bổ sung box bỏ sót | F1 sau rework `0.7188`; phần train/eval model đã được thực hiện local và ghi ở mục 5 |
 | Kiểm tra repo | Windows không in được tiếng Việt khi chạy Python mặc định | Dùng `$env:PYTHONIOENCODING="utf-8"; py -3 ...` | Checker chạy đạt 50/50 |
 
 ## 7. Tự đánh giá theo rubric
