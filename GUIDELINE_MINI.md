@@ -44,5 +44,7 @@ Tôi ghi lại tên ảnh và lý do để hỏi giảng viên thay vì chọn l
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 |---|---|---|---|
 | drive_001.jpg | Xe car 13 và car 6 bị một cột che | Gán một box riêng quanh phần nhìn thấy của từng xe và chọn lớp car | Phần xe còn lại vẫn đủ đặc điểm để nhận diện là car |
+| drive_003.jpg | Nhiều xe ở khu vực trung tâm bị chồng lấn lên nhau | Gán một box riêng cho từng xe có thể nhận diện; không gộp thành một box nhóm | Quy tắc của bài là một xe tương ứng với một box, kể cả khi các xe đứng sát hoặc che nhau |
+| drive_004.jpg | Một xe ở khu vực mép dưới ảnh bị cắt khỏi khung hình trong cảnh thiếu sáng | Vẫn gán box quanh phần xe nhìn thấy và để box chạm đúng mép ảnh nếu còn đủ bằng chứng nhận diện | Xe bị cắt bởi rìa ảnh vẫn được gán; không đoán phần nằm ngoài ảnh |
 
 
